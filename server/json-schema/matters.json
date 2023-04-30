@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Ryan vs. State of Kentucky",
+        "trialDate": "5/27/23",
+        "jurisdiction": {
+            "id": 1,
+            "name": "Los Angeles"
+        },
+        "opposingCounsels": [
+            {
+                "id": 1,
+                "name": "Clark Hill LLP"
+            }
+        ]
+    }
+]
