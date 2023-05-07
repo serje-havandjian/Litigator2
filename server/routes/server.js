@@ -8,7 +8,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    console.log("req", req)
+
   res.send([
     {
         "id": 1,
@@ -22,6 +22,51 @@ app.get('/', (req, res) => {
             {
                 "id": 1,
                 "name": "Clark Hill LLP"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Serje vs. Sioux City, Iowa",
+        "trialDate": "1/25/25",
+        "jurisdiction": {
+            "id": 1,
+            "name": "Los Angeles"
+        },
+        "opposingCounsels": [
+            {
+                "id": 1,
+                "name": "Clark Hill LLP"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Serje vs. Sioux Falls, South Dakota",
+        "trialDate": "3/17/24",
+        "jurisdiction": {
+            "id": 2,
+            "name": "Bogota"
+        },
+        "opposingCounsels": [
+            {
+                "id": 2,
+                "name": "Gibson Dunn"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Ryan vs. Oregon, Missouri",
+        "trialDate": "10/27/26",
+        "jurisdiction": {
+            "id": 3,
+            "name": "Dallas"
+        },
+        "opposingCounsels": [
+            {
+                "id": 3,
+                "name": "Blank & Rome LLP"
             }
         ]
     }
